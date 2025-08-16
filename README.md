@@ -44,4 +44,9 @@ move /Y "C:\Update Disabler\Apps Backup\WaaSMedicSvc.dll" "C:\Windows\System32"
 move /Y "C:\Update Disabler\Apps Backup\WaaSMedicPS.dll" "C:\Windows\System32"
 move /Y "C:\Update Disabler\Apps Backup\WaaSAssessment.dll" "C:\Windows\System32"
 move /Y "C:\Update Disabler\Apps Backup\USS" "C:\Windows\UUS"
+
+sc config TrustedInstaller start=auto >nul 2>&1
+sc config uhssvc start=auto >nul 2>&1
+sc config BITS start=auto >nul 2>&1
+sc config DoSvc start=auto >nul 2>&1
 ```
