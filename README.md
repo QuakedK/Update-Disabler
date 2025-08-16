@@ -21,27 +21,27 @@ sc config TrustedInstaller start=auto
 2. Open [Nsudo](https://github.com/QuakedK/Task-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
 3. Then type CMD in the Address Bar, then click run and paste the following commands.
 ```bat
-reg import "C:\Update Disabler\Reg Backup\PolicyBackup.reg" /f
-reg import "C:\Update Disabler\Reg Backup\UpdateOrchestratorServiceBackup.reg" /f
-reg import "C:\Update Disabler\Reg Backup\UpdateOrchestratorTaskBackup.reg" /f
-reg import "C:\Update Disabler\Reg Backup\WindowsUpdateMedicServiceBackup.reg" /f
-reg import "C:\Update Disabler\Reg Backup\WindowsUpdateServiceBackup.reg" /f
+reg import "C:\Update Disabler\Reg Backup\PolicyBackup.reg"
+reg import "C:\Update Disabler\Reg Backup\UpdateOrchestratorServiceBackup.reg" 
+reg import "C:\Update Disabler\Reg Backup\UpdateOrchestratorTaskBackup.reg"
+reg import "C:\Update Disabler\Reg Backup\WindowsUpdateMedicServiceBackup.reg"
+reg import "C:\Update Disabler\Reg Backup\WindowsUpdateServiceBackup.reg"
 reg delete "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /f
 
-move "C:\Update Disabler\Apps Backup\UsoClient.exe" "C:\Windows\System32"
-move "C:\Update Disabler\Apps Backup\MoUsoCoreWorker.exe" "C:\Windows\UUS\amd64"
-move "C:\Update Disabler\Apps Backup\upfc.exe" "C:\Windows\System32"
-move "C:\Update Disabler\Apps Backup\DoSvc.dll" "C:\Windows\System32"
-move "C:\Update Disabler\Apps Backup\DoSvc.dll.mui" "C:\Windows\System32\en-US"
-move "C:\Update Disabler\Apps Backup\SIHClient.exe" "C:\Windows\System32"        
-move "C:\Update Disabler\Apps Backup\sihclient.exe.mui" "C:\Windows\System32\en-US"
-move "C:\Update Disabler\Apps Backup\wuauclt.exe" "C:\Windows\System32"
-move "C:\Update Disabler\Apps Backup\wusa.exe" "C:\Windows\System32"
-move "C:\Update Disabler\Apps Backup\wusa.mui" "C:\Windows\System32\en-US"
-move "C:\Update Disabler\Apps Backup\MusNotification.exe" "C:\Windows\System32"
-move "C:\Update Disabler\Apps Backup\MoNotificationUxStub.exe" "C:\Windows\System32"
-move "C:\Update Disabler\Apps Backup\MoNotificationUxStub.exe" "C:\Windows\System32"
-move "C:\Update Disabler\Apps Backup\WaaSMedicSvc.dll" "C:\Windows\System32"
-move "C:\Update Disabler\Apps Backup\WaaSMedicPS.dll" "C:\Windows\System32"
-move "C:\Update Disabler\Apps Backup\WaaSAssessment.dll" "C:\Windows\System32"
+move /Y "C:\Update Disabler\Apps Backup\UsoClient.exe" "C:\Windows\System32"
+move /Y "C:\Update Disabler\Apps Backup\upfc.exe" "C:\Windows\System32"
+move /Y "C:\Update Disabler\Apps Backup\DoSvc.dll" "C:\Windows\System32"
+move /Y "C:\Update Disabler\Apps Backup\DoSvc.dll.mui" "C:\Windows\System32\en-US"
+move /Y "C:\Update Disabler\Apps Backup\SIHClient.exe" "C:\Windows\System32"        
+move /Y "C:\Update Disabler\Apps Backup\sihclient.exe.mui" "C:\Windows\System32\en-US"
+move /Y "C:\Update Disabler\Apps Backup\wuauclt.exe" "C:\Windows\System32"
+move /Y "C:\Update Disabler\Apps Backup\wusa.exe" "C:\Windows\System32"
+move /Y "C:\Update Disabler\Apps Backup\wusa.exe.mui" "C:\Windows\System32\en-US"
+move /Y "C:\Update Disabler\Apps Backup\MusUpdateHandlers.dll" "C:\Windows\System32"
+move /Y "C:\Update Disabler\Apps Backup\MusUpdateHandlers1.dll" "C:\Windows\System32"
+move /Y "C:\Update Disabler\Apps Backup\MoNotificationUxStub.exe" "C:\Windows\System32"
+move /Y "C:\Update Disabler\Apps Backup\WaaSMedicSvc.dll" "C:\Windows\System32"
+move /Y "C:\Update Disabler\Apps Backup\WaaSMedicPS.dll" "C:\Windows\System32"
+move /Y "C:\Update Disabler\Apps Backup\WaaSAssessment.dll" "C:\Windows\System32"
+move /Y "C:\Update Disabler\Apps Backup\USS" "C:\Windows\UUS"
 ```
