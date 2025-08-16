@@ -2,14 +2,15 @@
 Update Disabler's goal is to completely disable Windows Updates, whether it's Services, Task, Reg's or Exe's.
 
 <img width="978" height="512" alt="image" src="https://github.com/user-attachments/assets/5b679e9e-de15-49f1-929b-fc6cc187ba3c" />
+
 ![GitHub Release Downloads](https://img.shields.io/github/downloads/QuakedK/Update-Disabler/total)
 
 # #1 Usage
 Update Disabler is required to be ran with Nsudo to delete, change or disable things without premission issues.
 
 1. Download [Nsudo](https://github.com/M2TeamArchived/NSudo/releases/download/9.0-Preview1/NSudo_9.0_Preview1_9.0.2676.0.zip) (Offical Site) or the Standalone exe from [Downloads](https://github.com/QuakedK/Update-Disabler/raw/refs/heads/main/Downloads/NSudoLG.exe)
-2. Download [Update Disabler]().
-3. Open [NSudoLG.exe](https://github.com/QuakedK/Update-Disabler/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges then drop/drag [Update Disabler]() into Nsudo then click run.
+2. Download [Update Disabler](https://github.com/QuakedK/Update-Disabler/releases/download/WindowsUpdates/Update-Disabler-V1.0.bat).
+3. Open [NSudoLG.exe](https://github.com/QuakedK/Update-Disabler/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges then drop/drag [Update Disabler](https://github.com/QuakedK/Update-Disabler/releases/download/WindowsUpdates/Update-Disabler-V1.0.bat) into Nsudo then click run.
 
 # #2 Revert
 Note: If you created a Restore Point you can just use that <3
