@@ -21,12 +21,12 @@ sc config TrustedInstaller start=auto
 2. Open [Nsudo](https://github.com/QuakedK/Task-Destroyer/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges.
 3. Then type CMD in the Address Bar, then click run and paste the following commands.
 ```bat
-reg import "C:\Update Disabler\Reg Backup\PolicyBackup.reg"
-reg import "C:\Update Disabler\Reg Backup\UpdateOrchestratorServiceBackup.reg"
-reg import "C:\Update Disabler\Reg Backup\UpdateOrchestratorTaskBackup.reg"
-reg import "C:\Update Disabler\Reg Backup\WindowsUpdateMedicServiceBackup.reg"
-reg import "C:\Update Disabler\Reg Backup\WindowsUpdateServiceBackup.reg"
-reg delete "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate"
+reg import "C:\Update Disabler\Reg Backup\PolicyBackup.reg" /f
+reg import "C:\Update Disabler\Reg Backup\UpdateOrchestratorServiceBackup.reg" /f
+reg import "C:\Update Disabler\Reg Backup\UpdateOrchestratorTaskBackup.reg" /f
+reg import "C:\Update Disabler\Reg Backup\WindowsUpdateMedicServiceBackup.reg" /f
+reg import "C:\Update Disabler\Reg Backup\WindowsUpdateServiceBackup.reg" /f
+reg delete "HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate" /f
 
 move "C:\Update Disabler\Apps Backup\UsoClient.exe" "C:\Windows\System32"
 move "C:\Update Disabler\Apps Backup\MoUsoCoreWorker.exe" "C:\Windows\UUS\amd64"
