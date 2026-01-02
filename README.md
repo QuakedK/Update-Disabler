@@ -15,7 +15,7 @@ The **Extreme Version** disables Update Services, deletes Update Task, disables 
 The **Lite Version** disables Update Services, deletes Update Task, and disables Updates via the registry. This a great and simple this is a great alternative for those who don't want to lose functionality or deal with unsupport features.
 
 1. Download [Nsudo](https://github.com/M2TeamArchived/NSudo/releases/download/9.0-Preview1/NSudo_9.0_Preview1_9.0.2676.0.zip) (Offical Site) or the Standalone exe from [Downloads](https://github.com/QuakedK/Update-Disabler/raw/refs/heads/main/Downloads/NSudoLG.exe).
-2. Download and choose your [Service Destroyer]() version.
+2. Download and choose your [Update Disabler](https://github.com/QuakedK/Update-Disabler/releases/tag/Winupdatedisabler) version.
 3. Open [NSudoLG.exe](https://github.com/QuakedK/Update-Disabler/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges then drop/drag Update Disabler into Nsudo then click run.
 
 # #2 Revert (Extreme Version)
