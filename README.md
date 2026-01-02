@@ -9,7 +9,7 @@ Update Disabler's goal is to completely disable Windows Updates, whether it's Se
 Update Disabler is required to be ran with Nsudo to delete, change or disable things without premission issues.
 
 [Update Disabler Extreme](https://github.com/QuakedK/Update-Disabler/releases/download/Winupdatedisabler/Update-Disabler-Extreme-V1.2.bat) | 
-The **Extreme Version** disables Update Services, deletes Update Task, disables Updates via the registry and most importantly from the extreme version it deletes Windows Update System32 and SysWow64 files, fully preventing windows from re-enabling windows updates. However deleting System32 and SysWow64 files could cause unexpected behavior. Please Check and read the [Unsupported Features]().
+The **Extreme Version** disables Update Services, deletes Update Task, disables Updates via the registry and most importantly from the extreme version it deletes Windows Update System32 and SysWow64 files, fully preventing windows from re-enabling windows updates. However deleting System32 and SysWow64 files could cause unexpected behavior. Please Check and read the [Unsupported Features](https://github.com/QuakedK/Update-Disabler/blob/main/Unsupported%20Features.md).
 
 [Update Disabler Lite](https://github.com/QuakedK/Update-Disabler/releases/download/Winupdatedisabler/Update-Disabler-Lite-V1.2.bat) |
 The **Lite Version** disables Update Services, deletes Update Task, and disables Updates via the registry. This a great and simple this is a great alternative for those who don't want to lose functionality or deal with unsupport features.
@@ -19,7 +19,7 @@ The **Lite Version** disables Update Services, deletes Update Task, and disables
 3. Open [NSudoLG.exe](https://github.com/QuakedK/Update-Disabler/raw/refs/heads/main/Downloads/NSudoLG.exe) and Enable All Privileges then drop/drag Update Disabler into Nsudo then click run.
 
 # #2 Revert (Extreme Version)
-Note: If you created a Restore Point you can just use that <3
+Note: Manually attempting to System Restore using the Extreme Version, doesn't work unless you restore in Advanced Recovery. See more info in the [Unsupported Features](https://github.com/QuakedK/Update-Disabler/blob/main/Unsupported%20Features.md#system-restore-points).
 
 1. Open CMD and Paste the following.
 ```bat
