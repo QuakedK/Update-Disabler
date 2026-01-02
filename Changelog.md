@@ -38,3 +38,22 @@
 - Changed where the files get backedup to.
 
 ---
+
+**Update Disabler V1.2**
+
+1/2/26 <3
+
+*Added*
+- Added file logging, mostly to help determine what was backed up.
+
+*Changed*
+- Changed the naming scheme of Update Disabler, having a Extreme and Lite version.
+
+*Removed*
+- Removed UpdateCompression.dll duplicate.
+- Removed wusa.exe duplicate.
+
+*Removed*
+- Fixed the Backup Error Handling, saying Task Destroyer instead of Update Disabler.
+- Fixed a few other tiny mistakes.
+
