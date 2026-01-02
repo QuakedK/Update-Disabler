@@ -8,10 +8,10 @@ Update Disabler's goal is to completely disable Windows Updates, whether it's Se
 # #1 Usage
 Update Disabler is required to be ran with Nsudo to delete, change or disable things without premission issues.
 
-[Update Disabler Extreme]() | 
+[Update Disabler Extreme](https://github.com/QuakedK/Update-Disabler/releases/download/Winupdatedisabler/Update-Disabler-Extreme-V1.2.bat) | 
 The **Extreme Version** disables Update Services, deletes Update Task, disables Updates via the registry and most importantly from the extreme version it deletes Windows Update System32 and SysWow64 files, fully preventing windows from re-enabling windows updates. However deleting System32 and SysWow64 files could cause unexpected behavior. Please Check and read the [Unsupported Features]().
 
-[Update Disabler Lite](https://github.com/QuakedK/Service-Destroyer/releases/download/ServiceDisabler/Service-Destroyer-Lite-V1.3.bat) |
+[Update Disabler Lite](https://github.com/QuakedK/Update-Disabler/releases/download/Winupdatedisabler/Update-Disabler-Lite-V1.2.bat) |
 The **Lite Version** disables Update Services, deletes Update Task, and disables Updates via the registry. This a great and simple this is a great alternative for those who don't want to lose functionality or deal with unsupport features.
 
 1. Download [Nsudo](https://github.com/M2TeamArchived/NSudo/releases/download/9.0-Preview1/NSudo_9.0_Preview1_9.0.2676.0.zip) (Offical Site) or the Standalone exe from [Downloads](https://github.com/QuakedK/Update-Disabler/raw/refs/heads/main/Downloads/NSudoLG.exe).
