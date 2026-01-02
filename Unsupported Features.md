@@ -21,3 +21,4 @@ Having trouble navigating in Advanced Recovery? Watch this excellent [tutorial!]
 > [!NOTE]
 > If [Update Disabler Lite](https://github.com/QuakedK/Update-Disabler/releases/download/Winupdatedisabler/Update-Disabler-Lite-V1.2.bat) was done then, System Restoring the normal way will work.
 
+___
